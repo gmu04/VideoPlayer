@@ -4,7 +4,7 @@ import SwiftUI
 import AVKit
 
 struct ContentView: View {
-	//player object
+	//player object (1/3)
 	@State var player = AVPlayer(url:
 		Bundle.main.url(forResource: "sun", withExtension: "mp4")!)
 	
@@ -12,7 +12,7 @@ struct ContentView: View {
 		ZStack {
 			Color.black.ignoresSafeArea()
 			VStack {
-				//create a video-player user interface for the player object
+				//create a video-player user interface for the player object (2/3)
 				VideoPlayer(player: player)
 					.frame(maxWidth: .infinity)
 				.frame(height: 220)
@@ -20,7 +20,7 @@ struct ContentView: View {
 	
 		}
 		.onAppear{
-			//play the video
+			//play the video (3/3)
 			player.seek(to: CMTime.zero)
 			player.play()
 		}

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/gokhanmutlu/Documents/PROJECTS/iOS/SwiftUI/_COMPONENTS/VideoPlayer/SunVideoPlayer.xcodeproj">
+      location = "self:/Users/gokhanmutlu/Documents/PROJECTS/iOS/SwiftUI/_COMPONENTS/SunVideoPlayer/VideoPlayer.xcodeproj">
    </FileRef>
 </Workspace>

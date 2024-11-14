@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7FCC52D2CE5BE1400DECEC1 /* SunVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FCC52D2CE5BE1400DECEC1 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FCC5302CE5BE1400DECEC1 /* VideoPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerApp.swift; sourceTree = "<group>"; };
 		F7FCC5322CE5BE1400DECEC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7FCC5342CE5BE1800DECEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		F7FCC52E2CE5BE1400DECEC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7FCC52D2CE5BE1400DECEC1 /* SunVideoPlayer.app */,
+				F7FCC52D2CE5BE1400DECEC1 /* VideoPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7FCC52C2CE5BE1400DECEC1 /* SunVideoPlayer */ = {
+		F7FCC52C2CE5BE1400DECEC1 /* VideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7FCC53B2CE5BE1800DECEC1 /* Build configuration list for PBXNativeTarget "SunVideoPlayer" */;
+			buildConfigurationList = F7FCC53B2CE5BE1800DECEC1 /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
 			buildPhases = (
 				F7FCC5292CE5BE1400DECEC1 /* Sources */,
 				F7FCC52A2CE5BE1400DECEC1 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = SunVideoPlayer;
+			name = VideoPlayer;
 			productName = VideoPLayer;
-			productReference = F7FCC52D2CE5BE1400DECEC1 /* SunVideoPlayer.app */;
+			productReference = F7FCC52D2CE5BE1400DECEC1 /* VideoPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7FCC5282CE5BE1400DECEC1 /* Build configuration list for PBXProject "SunVideoPlayer" */;
+			buildConfigurationList = F7FCC5282CE5BE1400DECEC1 /* Build configuration list for PBXProject "VideoPlayer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7FCC52C2CE5BE1400DECEC1 /* SunVideoPlayer */,
+				F7FCC52C2CE5BE1400DECEC1 /* VideoPlayer */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SunVideoPlayer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayer/Preview Content\"";
 				DEVELOPMENT_TEAM = 85373584HZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SunVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SunVideoPlayer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayer/Preview Content\"";
 				DEVELOPMENT_TEAM = 85373584HZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -342,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SunVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7FCC5282CE5BE1400DECEC1 /* Build configuration list for PBXProject "SunVideoPlayer" */ = {
+		F7FCC5282CE5BE1400DECEC1 /* Build configuration list for PBXProject "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7FCC5392CE5BE1800DECEC1 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7FCC53B2CE5BE1800DECEC1 /* Build configuration list for PBXNativeTarget "SunVideoPlayer" */ = {
+		F7FCC53B2CE5BE1800DECEC1 /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7FCC53C2CE5BE1800DECEC1 /* Debug */,
