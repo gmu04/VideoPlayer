@@ -1,9 +1,9 @@
-// VideoPLayerApp.swift by Gokhan Mutlu on 14.11.2024
+// VideoPlayerApp.swift by Gokhan Mutlu on 14.11.2024
 
 import SwiftUI
 
 @main
-struct VideoPLayerApp: App {
+struct VideoPlayerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
