@@ -29,7 +29,7 @@ struct VideoPlayerView: View {
 						//play the video (3/3)
 						player.seek(to: CMTime.zero)
 						player.play()
-				}
+					}
 				
 				Spacer()
 			}
