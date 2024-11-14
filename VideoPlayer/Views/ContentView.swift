@@ -9,20 +9,27 @@ struct ContentView: View {
 		Bundle.main.url(forResource: "sun", withExtension: "mp4")!)
 	
 	var body: some View {
-		ZStack {
-			Color.black
-				.ignoresSafeArea()
-
-			//create a video-player user interface for the player object (2/3)
-			VideoPlayer(player: player)
-				.frame(maxWidth: .infinity)
-				.frame(height: 220)
-				.onAppear{
-					//play the video (3/3)
-					player.seek(to: CMTime.zero)
-					player.play()
+		TabView {
+			VideoPlayerView()
+				.tabItem {
+					Label("Simple", systemImage: "sun.max")
+						.foregroundStyle(.white)
 				}
+			
+			VideoOverlayView()
+				.tabItem {
+					Label("Overlay", systemImage: "sun.horizon")
+						.foregroundStyle(.white)
+				}
+			
+			VideoMaterialsView()
+				.tabItem {
+					Label("Materials", systemImage: "sunglasses")
+						.foregroundStyle(.white)
+				}
+			
 		}
+		.tint(Color.yellow)
 	}
 }
 

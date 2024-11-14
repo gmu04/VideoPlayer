@@ -4,6 +4,11 @@ import SwiftUI
 
 @main
 struct VideoPlayerApp: App {
+	
+	init() {
+		UITabBar.appearance().unselectedItemTintColor = UIColor.white
+	}
+	
     var body: some Scene {
         WindowGroup {
             ContentView()
